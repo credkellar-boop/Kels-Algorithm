@@ -1,8 +1,5 @@
 # Kel's Algorithm: Cycle-Spider PQC Framework
 
-<div align="center">
-
-### 🕷️ Kel's Algorithm: Cycle-Spider PQC
 ![Kel's Algorithm](https://img.shields.io/badge/Kel's_Algorithm-Cycle_Spider_PQC-8A2BE2?style=for-the-badge&logo=shield&logoColor=white)
 ![Version](https://img.shields.io/badge/Version-v0.1.8-00E5FF?style=for-the-badge&logo=git&logoColor=white)
 
