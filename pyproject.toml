@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kels-algorithm"
+version = "0.1.0"
+description = "A modular, crypto-agile Post-Quantum Cryptography framework featuring a Cycle-Spider topology."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "blake3>=0.4.1",
+    "cryptography>=44.0.0",
+    "numpy>=2.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
