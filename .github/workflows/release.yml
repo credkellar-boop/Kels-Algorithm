@@ -1,12 +1,10 @@
 name: Build and Release
 
-# Triggers the workflow when a new version tag (e.g., v0.1.1) is pushed
 on:
   push:
     tags:
-      - 'v*.*.*' 
+      - 'v*.*.*'
 
-# CRITICAL FIX: Grants the workflow permission to write to repository contents (required to create releases)
 permissions:
   contents: write
 
@@ -18,12 +16,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # --- Add any required build/setup steps here ---
-      # (e.g., actions/setup-python, building your algorithm, etc.)
-      
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          # Uses the tag name dynamically (e.g., 'Release v0.1.1')
-          name: Release ${{ github.ref_name }} 
+          name: Release ${{ github.ref_name }}
           generate_release_notes: true
