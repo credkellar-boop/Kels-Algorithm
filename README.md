@@ -1,22 +1,38 @@
 # Kel's Algorithm: Cycle-Spider PQC Framework
 
-![GitHub Custom Badge](https://img.shields.io/badge/Architecture-Cycle--Spider-blueviolet?style=for-the-badge)
-![GitHub Custom Badge](https://img.shields.io/badge/PQC-Rank--8%20Lattice-orange?style=for-the-badge)
-![GitHub Custom Badge](https://img.shields.io/badge/Security-Proactive%20Trap-red?style=for-the-badge)
+![Build Status](https://img.shields.io/github/actions/workflow/status/credkellar-boop/kels-algorithm/ci-cd.yml?branch=main&style=for-the-badge)
+![Python Version](https://img.shields.io/badge/python-3.11%2B-blue?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-Cycle--Spider-blueviolet?style=for-the-badge)
+![Security Level](https://img.shields.io/badge/Security-Proactive%20Zeroize-red?style=for-the-badge)
 ![License](https://img.shields.io/github/license/credkellar-boop/kels-algorithm?style=for-the-badge)
 
-A modular, crypto-agile Post-Quantum Cryptography (PQC) framework built on a dynamic **Cycle-Spider topology**. Kel's Algorithm shifts away from static, reactive defense by embedding proactive canary bait traps, behavioral honeypots, and an automated memory quarantine engine directly into the cryptographic lifecycle.
+## 🕷️ What is this about?
+**Kel's Algorithm** is a next-generation, crypto-agile Post-Quantum Cryptography (PQC) framework. As classical encryption (RSA, ECC) faces an existential threat from the rapid advancement of quantum computing, this framework provides an impenetrable, mathematically robust defense using a highly modular **Cycle-Spider topology**. 
 
----
+Unlike traditional static cryptography, Kel's Algorithm acts like a living defensive web. It is designed not just to mathematically protect data against Shor's and Grover's algorithms, but to actively hunt, trap, and destroy automated malware attempting to breach the perimeter.
 
-## ─── 🕷️ The Cycle-Spider Topology ───
+## ⚙️ What does this do?
+The framework is divided into interconnected mathematical sub-modules ("Spider Legs") orchestrated by a central nervous system:
 
-A Spider Topology operates like a defensive web: a central core controlling autonomous, interconnected mathematical modules ("legs"). If an adversary touches a single strand of the web, the signature vibration triggers a structural cycle shift—the core moves, the compromised connection is cleanly severed, and the rest of the web adapts instantly.
+1. **Rank-8 Module-Lattice Transport:** Secures data-in-transit by hiding secrets inside high-dimensional geometric grids injected with mathematical noise, bound tightly to classical algorithms via a non-linear HKDF-SHA512 extraction.
+2. **Multi-Hash Chaining Authentication:** Eliminates collision vectors by passing digital signatures simultaneously through parallel tree structures (BLAKE3) and sponge permutations (SHA-3), topped with randomized leaf node salting.
+3. **Goppa Code Vault:** Secures long-term cold storage by packing data into massive matrices littered with intentional bit-errors and decoy linear code "chaff."
+4. **Active Perimeter Defense:** Deploys fake cryptographic variables ("Canaries"). If touched, the system silently shunts the attacker into an infinite computational delay loop (Tarpitting) while safely live-migrating legitimate traffic.
 
-### Core Cryptographic Primitives
-1. **Transport Layer:** High-dimension **Module-Lattice Structuring (Rank 8 M-LWE)** bound with classical X25519 primitives using **Non-Linear Ciphertext Binding** via HKDF-SHA512.
-2. **Authentication Layer:** Quantum-resistant digital signatures using dual-architecture **Multi-Hash Chaining (BLAKE3 + SHA-3)** with randomized leaf-node salting.
-3. **Vault Layer:** Long-term archival data security leveraging a hardened **Goppa Code Matrix** stuffed with intentional error injection and linear code chaffing.
+## 🔥 Why is it cool?
+Most encryption simply sits there and hopes the math holds up. Kel's Algorithm fights back.
 
----
- ──── 🛡️ Active Active Defense Lifecycle ───
+* **It's Polymorphic:** If an attacker touches a canary trap, the system instantly hot-swaps active Object Identifiers (OIDs) and ramps up symmetric bit-planes from 256 to 512 bits in real-time, effectively ghosting the attacker.
+* **It Destroys Malware:** Once the framework logs an attacker's telemetry in the honeypot, the Execution Quarantine engine bypasses standard garbage collection and executes a raw, C-level `0x00` overwrite on the volatile memory blocks. It literally vaporizes the malicious payload at the kernel level.
+* **It's Mathematically Interlocked:** The classical and quantum layers are inextricably bound. An adversary cannot isolate the classical payload to break it later; tampering with one byte scrambles the entire key expansion.
+
+## 🚀 How to install?
+
+Because this framework relies on modern Python packaging and strict environment controls, it utilizes a `pyproject.toml` configuration rather than legacy requirements files. 
+
+### Option A: Local Installation
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/credkellar-boop/kels-algorithm.git](https://github.com/credkellar-boop/kels-algorithm.git)
+cd kels-algorithm
