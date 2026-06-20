@@ -1,10 +1,54 @@
 # Kel's Algorithm: Cycle-Spider PQC Framework
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/credkellar-boop/kels-algorithm/ci-cd.yml?branch=main&style=for-the-badge)
-![Python Version](https://img.shields.io/badge/python-3.11%2B-blue?style=for-the-badge)
-![Architecture](https://img.shields.io/badge/Architecture-Cycle--Spider-blueviolet?style=for-the-badge)
-![Security Level](https://img.shields.io/badge/Security-Proactive%20Zeroize-red?style=for-the-badge)
-![License](https://img.shields.io/github/license/credkellar-boop/kels-algorithm?style=for-the-badge)
+<div align="center">
+
+### 🕷️ Kel's Algorithm: Cycle-Spider PQC
+![Kel's Algorithm](https://img.shields.io/badge/Kel's_Algorithm-Cycle_Spider_PQC-8A2BE2?style=for-the-badge&logo=shield&logoColor=white)
+![Version](https://img.shields.io/badge/Version-v0.1.8-00E5FF?style=for-the-badge&logo=git&logoColor=white)
+
+### 💻 Core Programming Languages
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+
+### ⚙️ Core Systems
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+### 🛡️ Cybersecurity & Offensive Auditing
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-FF1709?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=torproject&logoColor=white)
+
+### 🛠️ Low-Level Infrastructure & Performance
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-000000?style=for-the-badge&logo=llvm&logoColor=white)
+
+### 🔄 DevOps, Infrastructure & Build Tools
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Make](https://img.shields.io/badge/Make-008080?style=for-the-badge&logo=cmake&logoColor=white)
+
+### 🧠 Artificial Intelligence & Quantum
+![Qiskit](https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=qiskit&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+
+### ☁️ Cloud Providers
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+### 🖥️ Platform Support & Hardware Architecture
+![ARM](https://img.shields.io/badge/ARM-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![x86_64](https://img.shields.io/badge/x86__64-333333?style=for-the-badge&logo=intel&logoColor=white)
+![AMD](https://img.shields.io/badge/AMD-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
+
+</div>
+)
 
 # Kel's Algorithm (Cycle-Spider Framework)
 > Note: This overview is generated based on the source files and repository code shown in 1395.mp4.
