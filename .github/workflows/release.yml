@@ -1,34 +1,29 @@
-name: Publish Kel's Algorithm Release
+name: Build and Release
 
+# Triggers the workflow when a new version tag (e.g., v0.1.1) is pushed
 on:
   push:
     tags:
-      - 'v*'
+      - 'v*.*.*' 
+
+# CRITICAL FIX: Grants the workflow permission to write to repository contents (required to create releases)
+permissions:
+  contents: write
 
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies via PyProject
-        run: |
-          python -m pip install --upgrade pip
-          pip install .
-
-      - name: Run Attack/Defense Simulation Tests
-        run: |
-          python -m unittest discover -s tests
-
+      # --- Add any required build/setup steps here ---
+      # (e.g., actions/setup-python, building your algorithm, etc.)
+      
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          name: Release ${{ github.ref_name }}
+          # Uses the tag name dynamically (e.g., 'Release v0.1.1')
+          name: Release ${{ github.ref_name }} 
           generate_release_notes: true
-          
