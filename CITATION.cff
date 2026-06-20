@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this PQC framework in your research, please cite it as below."
+authors:
+  - family-names: "Developer"
+    given-names: "credkellar-boop"
+title: "Kel's Algorithm: Cycle-Spider PQC Framework"
+version: 0.1.8
+date-released: 2026-06-20
+url: "https://github.com/credkellar-boop/kels-algorithm"
